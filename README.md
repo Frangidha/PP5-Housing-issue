@@ -314,12 +314,51 @@ This revised section offers clear and organized instructions for deploying the p
 
 ### Development and Deployment
 
+- **GitHub:** The project repository was created on GitHub, and it served as the version control system to manage project files and track commits.
+
+- **Code Anywhere:** The development environment used for coding and development.
+
+- **Jupyter Notebooks:** These were employed for data analysis and preprocessing, model development, and evaluation.
+
+  - To start the Jupyter server, run the following command in your terminal: `jupyter notebook --NotebookApp.token='' --NotebookApp.password=''`.
+
+- **Heroku:** The platform used for deploying the project, making it accessible online.
+
+- **Kaggle:** Used to access the dataset that forms the basis of the project.
+
+- **Streamlit:** Employed for developing the user-friendly online app interface.
 
 ### Main Data Analysis and Machine Learning
 
+- **NumPy:** Utilized for various mathematical operations, including the calculation of means, modes, and standard deviations.
 
+- **Pandas:** Used for reading and writing data files, data inspection, creation and manipulation of series and dataframes.
 
-- **GradientBoostedRegressor:**
+- **ydata_profiling:** Employed to generate an extensive Profile Report of the dataset.
+
+- **PPScore:** Utilized to calculate the predictive power score of the data features.
+
+- **Matplotlib and Seaborn:** These libraries were used to create data visualization plots, including heatmaps, correlation plots, and histograms of feature importance.
+
+- **Feature Engine:** Used for data cleaning and preparation, including tasks such as feature selection, imputation of missing values, ordinal encoding, numerical transformations, outlier assessment, and smart correlation assessment.
+  
+- **Tensorflow:** Used to asses the important features using neural networks & looking if a neural network would provide better results
+
+- **SciKit Learn:** This library played a crucial role in various machine learning tasks:
+
+  - Data splitting into train and test sets.
+
+  - Feature processing and selection.
+
+  - Grid search for determining the optimal regression model.
+
+  - Grid search for optimizing hyperparameters.
+
+  - Model evaluation using the `r2_score`.
+
+- **GradientBoostedRegressor:** Utilized for implementing the GradientBoostedRegressor algorithm in the project.
+
+These resources and technologies collectively enabled the development and deployment of the project, from data analysis to model creation and evaluation.
 
 ## Credits
 
