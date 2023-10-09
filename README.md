@@ -75,7 +75,7 @@ The project was developed using the Cross Industry Standard Process for Data Min
 - Once a satisfactory model is built, it needs to be deployed in a real-world context. This phase includes implementing the model into operational systems and continuously monitoring its performance. Ongoing maintenance and retraining are essential to ensure that the model remains effective and aligned with the evolving business goals.
 - Develop the Streamlit app that will satisfy the business requirements determined in collaboration with the client and deploy the app online. The app is deployed on Heroku, and the process is described in the Deployment section below.
 
-These steps can be matched up nicely to 6 Epics in the Agile development process. As we move along the pipeline of the development process, we may flow back and forth between stages/epics as we learn new insights and have to revisit previous steps to refine the development while ultimately moving towards the final delivery of a product that satisfies the user's/client's requirements.
+These steps can be matched up nicely to 5 Epics in the Agile development process. As we move along the pipeline of the development process, we may flow back and forth between stages/epics as we learn new insights and have to revisit previous steps to refine the development while ultimately moving towards the final delivery of a product that satisfies the user's/client's requirements.
 
 ## Business Requirements
 
@@ -362,6 +362,22 @@ These resources and technologies collectively enabled the development and deploy
 
 ## Credits
 
+In the development of this project, various functions and classes were sourced from the CI Churnometer Walkthrough Project and the CI course content. These resources played a critical role in the development process and provided functionalities such as:
+
+- Hyperparameter optimization and search.
+- Feature importance analysis.
+- Evaluation of training and test sets.
+- PPS (Predictive Power Score) and correlation analysis.
+- Data visualization, including plots.
+- Missing data evaluation.
+- Data cleaning effectiveness, among others.
+
+These components were employed in the Jupyter Notebooks throughout the project's development. Additionally, the CI Churnometer Walkthrough Project served as the source of the Streamlit pages, which were further modified and adapted for the app deployed in this project. It also provided a guiding framework for the layout and flow of the project.
+
+Heritage Housing Prediction Repository
+
+I would like to extend my heartfelt thanks to [Iman](https://github.com/Imangnp) for establishing the ["Heritage Housing Prediction"](https://github.com/Imangnp/heritage-housing-issues)"Heritage Housing Prediction" GitHub repository. This repository played a pivotal role in enhancing the user interface, offering valuable insights for model improvement, and serving as a tremendous source of inspiration. Iman, your contributions to this project are greatly appreciated!
+
 
 ## Media
 
@@ -370,3 +386,6 @@ These resources and technologies collectively enabled the development and deploy
 
 ## Acknowledgements
 
+We extend our sincere thanks and appreciation to the following sources and individuals:
+
+- Many thanks to the supportive and knowledgeable community in Slack, which has been instrumental in answering questions and providing assistance throughout this project.
