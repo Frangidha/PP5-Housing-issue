@@ -3,9 +3,9 @@ import streamlit as st
 
 def page_summary_body():
 
-    image_path = "/assets/images/sale-study.jpg"
+    image_path = "./assets/images/sale-study.jpg"
 
-    st.image(image_path, caption='Local Image Alt Text',
+    st.image(image_path, caption='banner for predicing saleprice',
              use_column_width=True)
 
     st.write("### Quick Project Summary\n")
@@ -46,8 +46,8 @@ def page_summary_body():
     # Link to README file, users can have access to full project documentation
     st.write(
         f"For additional information, please visit and **read** the "
-        f"** [Project's README file]
-        (https: // github.com/Frangidha/test/blob/main/README.md)**."
+        f"** [Project's README file]"
+        f"(https: // github.com/Frangidha/test/blob/main/README.md)**."
     )
 
     # copied from README file - "Business Requirements" section
