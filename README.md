@@ -272,16 +272,41 @@ The project is developed as a Streamlit dashboard, catering to the third Busines
 This structured approach ensures that users can easily navigate and engage with the project, exploring its various facets and capabilities.
 ## Unfixed Bugs
 
-
+The app does not currently contain any unfixed bugs. The only thing It will run slowly on heroku because the plug size size is bigger then 300 mb.
 
 
 ## PEP8 Compliance Testing
 
+All python files were passed through the CI Python Linter. Those files included the app_pages files and the files in the src folder. A few small errors were fixed, such as long lines or trailing white spaces.
 
 ## Deployment
 
 ### Heroku Deployment
 
+The live application is accessible at the following link: [Heritage Housing - Live App]()
+
+To deploy the project on Heroku, follow these steps:
+
+1. Set the `runtime.txt` file to specify the Python version compatible with the Heroku-20 stack, which is the currently supported version.
+
+2. Log in to your Heroku account and create a new Heroku app.
+
+3. Navigate to the Deploy tab within your Heroku app's dashboard.
+
+4. Choose "GitHub" as the deployment method to link your Heroku app with your GitHub repository.
+
+5. Search for your GitHub repository by name and click "Connect" to link it to your Heroku app.
+
+6. Select the specific branch you want to deploy, typically the main branch, and click "Deploy Branch."
+
+7. Heroku will automatically initiate the deployment process. If all deployment files are in good order, the process should run smoothly.
+
+8. Once the deployment is completed, you can access your live app by clicking the "Open App" button at the top of the Heroku app's dashboard.
+
+9. If you encounter issues with a large slug size, consider optimizing your application by adding large files that are not required for the app to the `.slugignore` file to reduce the slug size and improve performance.
+
+Heroku provides a convenient platform for hosting your project online, making it accessible to users and clients.
+This revised section offers clear and organized instructions for deploying the project on 
 
 
 
