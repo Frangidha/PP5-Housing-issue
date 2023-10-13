@@ -1,8 +1,8 @@
 # Heritage Housing Prediction
 
-Live Site: [Live Site](https://github.com/USERNAME/REPOSITORY/blob/main/README.md)
+Live Site: [Live Site](https://housepricingpredictor1-02d4376cd092.herokuapp.com/)
 
-Link to Repository: [Repository](https://github.com/YourUsername/YourRepository/blob/main/README.md)
+Link to Repository: [Repository](https://github.com/Frangidha/PP5-Housing-issue)
 
 ## Table of Content
 
@@ -273,6 +273,11 @@ This structured approach ensures that users can easily navigate and engage with 
 ## Unfixed Bugs
 
 The app does not currently contain any unfixed bugs. The only thing It will run slowly on heroku because the plug size size is bigger then 300 mb.
+
+## Possible improvments
+
+Use of Neural network instead of ML model. unfortunately not enough data is present and a study to get intresting results secondly the archicture of the neural network should also be research way more.
+
 
 
 ## PEP8 Compliance Testing
