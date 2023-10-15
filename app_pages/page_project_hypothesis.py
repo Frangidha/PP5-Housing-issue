@@ -14,10 +14,10 @@ def page_project_hypothesis_body():
     # conclusions taken from "02 - Sale Price Study" notebook
     st.success("""
         Hypotheses for House Sale Prices
-        These hypotheses are based on the observed correlations and provide 
-        insights 
-        into key factors influencing house sale prices during data 
-        visualization.\n
+        These hypotheses are based on the observed correlations and provide
+         insights
+         into key factors influencing house sale prices during data
+         visualization.\n
 
         Hypothesis 1: Overall Quality\n
         - **Hypothesis**: Quality significantly impacts selling price.\n
@@ -26,18 +26,18 @@ def page_project_hypothesis_body():
 
         Hypothesis 2: Above Ground Living Area\n
         - **Hypothesis**: Living area affects selling price.\n
-        - **Explanation**: Robust positive correlation; larger spaces 
-        mean higher prices. \n
+        - **Explanation**: Robust positive correlation; larger spaces
+         mean higher prices. \n
 
         Hypothesis 3: Year Built
         - **Hypothesis**: Year built moderately impacts price.\n
-        - **Explanation**: Moderate positive correlation; newer 
-        houses command higher prices.\n
+        - **Explanation**: Moderate positive correlation; newer
+         houses command higher prices.\n
 
         Hypothesis 4: Garage Area\n
         - **Hypothesis**: Garage size plays a role.\n
-        - **Explanation**: Strong correlation; larger garages 
-        mean higher selling prices.\n
+        - **Explanation**: Strong correlation; larger garages
+         mean higher selling prices.\n
         """)
 
     st.info(
